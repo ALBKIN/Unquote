@@ -24,7 +24,7 @@ public class Question {
         answer2 = answerTwo;
         answer3 = answerThree;
         correctAnswer = correctAnswerIndex;
-        playerAnswer = 3;
+        playerAnswer = -1;
     }
 
     boolean isCorrect() {
